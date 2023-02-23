@@ -1,0 +1,149 @@
+/*헤더*/
+header {
+  width: 100%;
+  height: 125px;
+  margin: 0 auto;
+}
+
+header>#box {
+  width: 1200px;
+  height: 130px;
+  margin: 0 auto;
+}
+
+header>#box > a {
+  width: 1200px;
+  height: 130px;
+  margin: 0 auto;
+}
+
+#logo {
+  width: 200px;
+  height: 85px;
+  float: left;
+  margin: 10px 0 0 20px;
+}
+
+#logo>a>img {
+  width: 100%;
+  height: 100%;
+}
+
+#login {
+  width: 450px;
+  height: 30px;
+  float: right;
+  margin: 20px 20px 0 0px;background-color: red;
+}
+
+#login>ul>li {
+  float: left;
+  font-size: 13px;
+  margin: 0 5px;
+  color: #666;
+}
+
+#login>ul>li>a {
+  text-decoration: none;
+  color: #666;
+}
+
+#login>ul>li>a:hover {
+  opacity: 0.7;
+}
+
+
+header > nav{width:100%; height:50px;  background-color:red; margin:0 auto;}
+header > nav > ul {width:1000px; margin:0 auto; height:30px;}
+header > nav > ul > li {float:left; margin:10px 25px; font-size:15px;}
+
+/*슬라이더*/
+#slider {
+  width: 100%;
+  height: 450px;
+  margin: 0 auto;
+background-color: bisque;}
+#slider > .rollbox {width:1260px; height:450px;background-color:blueviolet;margin:0 auto;}
+#slider>img {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+/*main*/
+#product {
+  width: 1260px;
+  height: 360px;
+  background-color: pink;
+  margin: 0 auto;
+}
+
+#product>h1 {
+  height: 40px;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 10px;
+  color: #666;
+  background-color: gold;
+}
+
+.ebox {
+  width: 280px;
+  height: 320px;
+  background-color: rgb(99, 190, 226);
+  float: left;
+  margin: 0 10px 0 25px;
+}
+
+.ebox> a  > img {
+  width: 100%;
+  height: 180px;
+}
+
+
+#today {
+  width: 1260px;
+  height: 700px;
+  background-color: red;
+  margin: 0 auto;
+}
+
+#today > .tbox {width:230px; height:320px;background-color: pink; float:left;margin:20px 12px 0 10px;}
+
+#best20 {
+  width:  1260px;
+  height: 500px;
+  background-color: blue;
+  margin: 0 auto;
+}
+
+#chan {
+  width:  1260px;
+  height: 500px;
+  background-color: rgb(28, 126, 113);
+  margin: 0 auto;
+}
+
+#pendent {
+  width:  1260px;
+  height: 500px;
+  background-color: rgb(184, 143, 69);
+  margin: 0 auto;
+}
+
+/*하단*/
+footer {
+  width: 100%;
+  height: 300px;
+  background-color: skyblue;
+  margin: 0 auto;
+}
+
+#bt_logo{width:90px; height:90px; float:left; background-color:red; margin:20px; 0 0 20px;}
+
+#ftbox {
+  width: 1280px;
+  height: 300px;
+  margin: 0 auto;
+  background-color: rebeccapurple
+}
